@@ -5,7 +5,7 @@ This is a solution to the [Product Card Component challenge on Frontend Mentor](
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](hhttps://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
+  - [The challenge](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
   - [Screenshot](./assets/images/web.png)
   - [Screenshot](./assets/images/mobile.png)
 - [Author](#author)
@@ -14,8 +14,8 @@ This is a solution to the [Product Card Component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./assets/images/web.png)
-![](./assets/images/mobile.png)
+![](./images/web.png)
+![](./images/mobile.png)
 
 ### Links
 
