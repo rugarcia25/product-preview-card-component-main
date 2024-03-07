@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(30, 38%, 92%);
+  border-radius: 25px;
+}
+
+.card {
+  border-radius: 25px;
+  display: flex;
+  width: 700px;
+  padding: 2rem;
+}
+
+#card-left {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem 0 0 1rem;
+  object-fit: cover;
+}
+
+#card-right {
+  background-color: white;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 2rem;
+  border-radius: 0 15px 15px 0;
+}
+
+.font {
+  font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
+}
+
+#title {
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 0.2rem;
+}
+
+h1 {
+  font-family: Fraunces;
+  text-align: left;
+  margin-right: 1rem;
+  margin-top: 1.2rem;
+  font-size: xx-large;
+  font-weight: 900;
+  color: hsl(212, 21%, 14%);
+}
+
+#description {
+  text-align: left;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  font-size: smaller;
+  letter-spacing: 0.04rem;
+}
+
+#prices {
+  display: flex;
+}
+
+#price {
+  display: flex;
+  font-family: Fraunces;
+  font-size: xx-large;
+  margin-top: 2rem;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+}
+
+#offert {
+  margin-top: 2.7rem;
+  margin-left: 1rem;
+  font-family: Fraunces;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  font-family: Montserrat;
+  color: white;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+  letter-spacing: 0.03rem;
+  border: none;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+button img {
+  width: 1rem;
+  margin-right: 0.25rem;
+  transform: scaleX(-1); /* Volteo imagen*/
+}
+
+button:hover {
+  background-color: hsl(158, 36%, 20%);
+}
+
+@media only screen and (max-width: 650px) {
+  .card {
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #perfume {
+    content: url("../images/image-product-mobile.jpg");
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  #card-right {
+    border-radius: 0 0 1rem 1rem;
+  }
+
+  h1 {
+    line-height: 1;
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
